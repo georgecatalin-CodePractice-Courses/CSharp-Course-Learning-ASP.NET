@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.852
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetApplication", "ASPNetApplication\ASPNetApplication.csproj", "{1CAF687D-0E97-4842-BA5C-166DF7000183}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApplication", "WebFormsApplication\WebFormsApplication.csproj", "{0EEE190F-BCF7-4F79-8668-54233C1E87C0}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RazorWebPagesApplication", "RazorWebPagesApplication\", "{C01EA277-3364-4D6C-9355-A50059766EE2}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RazorWebPagesApplication(1)", "RazorWebPagesApplication\", "{C01EA277-3364-4D6C-9355-A50059766EE2}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_52324"
@@ -29,6 +29,8 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RazorWebPagesApplication", 
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPMVCApplication", "ASPMVCApplication\ASPMVCApplication.csproj", "{CFB737F5-FB9E-4824-9220-85E4AEB4C980}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{C01EA277-3364-4D6C-9355-A50059766EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C01EA277-3364-4D6C-9355-A50059766EE2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C01EA277-3364-4D6C-9355-A50059766EE2}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{CFB737F5-FB9E-4824-9220-85E4AEB4C980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB737F5-FB9E-4824-9220-85E4AEB4C980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB737F5-FB9E-4824-9220-85E4AEB4C980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB737F5-FB9E-4824-9220-85E4AEB4C980}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
