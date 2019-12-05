@@ -16,6 +16,15 @@ namespace ASPNetApplication
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            Application["ApplicationStartDateTime"] = DateTime.Now;
+
+
+        }
+
+        private void Session_Start()
+        {
+            Session["SessionStartDateTime"] = DateTime.Now;
         }
     }
 }

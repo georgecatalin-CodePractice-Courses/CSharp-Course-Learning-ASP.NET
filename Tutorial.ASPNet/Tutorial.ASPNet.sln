@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetApplication", "ASPNetApplication\ASPNetApplication.csproj", "{1CAF687D-0E97-4842-BA5C-166DF7000183}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApplication", "WebFormsApplication\WebFormsApplication.csproj", "{0EEE190F-BCF7-4F79-8668-54233C1E87C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1CAF687D-0E97-4842-BA5C-166DF7000183}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CAF687D-0E97-4842-BA5C-166DF7000183}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CAF687D-0E97-4842-BA5C-166DF7000183}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
