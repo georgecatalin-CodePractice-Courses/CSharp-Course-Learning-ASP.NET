@@ -1,11 +1,33 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29424.173
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASPNetApplication", "ASPNetApplication\ASPNetApplication.csproj", "{1CAF687D-0E97-4842-BA5C-166DF7000183}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFormsApplication", "WebFormsApplication\WebFormsApplication.csproj", "{0EEE190F-BCF7-4F79-8668-54233C1E87C0}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RazorWebPagesApplication", "RazorWebPagesApplication\", "{C01EA277-3364-4D6C-9355-A50059766EE2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52324"
+		Debug.AspNetCompiler.PhysicalPath = "RazorWebPagesApplication\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52324\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52324"
+		Release.AspNetCompiler.PhysicalPath = "RazorWebPagesApplication\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52324\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52324"
+		SlnRelativePath = "RazorWebPagesApplication\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +43,10 @@ Global
 		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EEE190F-BCF7-4F79-8668-54233C1E87C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C01EA277-3364-4D6C-9355-A50059766EE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01EA277-3364-4D6C-9355-A50059766EE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C01EA277-3364-4D6C-9355-A50059766EE2}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C01EA277-3364-4D6C-9355-A50059766EE2}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first Razor Page</title>
+    </head>
+    <body>
+        <p>The mpst important courses this month are as follows:</p>
+       @{
+           List<string> courses = new List<string>()
+           {
+               "Computer Science",
+               "Data Science",
+               "Artificial Intelligence"
+           };
+
+           <ul>
+               @foreach (string course in courses)
+               {
+                   <li>@course</li>
+               }
+           </ul>
+       }
+
+    </body>
+</html>
